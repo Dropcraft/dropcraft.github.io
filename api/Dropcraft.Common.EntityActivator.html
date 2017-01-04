@@ -1,0 +1,734 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EntityActivator
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EntityActivator
+   ">
+    <meta name="generator" content="docfx 2.8.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Dropcraft_Common_EntityActivator" data-uid="Dropcraft.Common.EntityActivator">Class EntityActivator
+              </h1>
+              <div class="markdown level0 summary"><p>EntityActivator provides platform-independent instantiation logic for the standard types</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">EntityActivator</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Dropcraft.Common</h6>
+              <h6><strong>Assembly</strong>:Dropcraft.Common.dll</h6>
+              <h5 id="Dropcraft_Common_EntityActivator_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public abstract class EntityActivator</code></pre>
+              </div>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_Current.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L18">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_Current_" data-uid="Dropcraft.Common.EntityActivator.Current*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_Current" data-uid="Dropcraft.Common.EntityActivator.Current">Current</h4>
+              <div class="markdown level1 summary"><p>Currently selected EntityActivator</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static EntityActivator Current { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.EntityActivator.html">EntityActivator</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_GetDeploymentEventsHandler_Dropcraft_Common_Configuration_DeploymentEventsHandlerInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.GetDeploymentEventsHandler(Dropcraft.Common.Configuration.DeploymentEventsHandlerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L84">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_GetDeploymentEventsHandler_" data-uid="Dropcraft.Common.EntityActivator.GetDeploymentEventsHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_GetDeploymentEventsHandler_Dropcraft_Common_Configuration_DeploymentEventsHandlerInfo_" data-uid="Dropcraft.Common.EntityActivator.GetDeploymentEventsHandler(Dropcraft.Common.Configuration.DeploymentEventsHandlerInfo)">GetDeploymentEventsHandler(DeploymentEventsHandlerInfo)</h4>
+              <div class="markdown level1 summary"><p>Instantiates deployment events handler using provided DeploymentEventsHandlerInfo</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IDeploymentEventsHandler GetDeploymentEventsHandler(DeploymentEventsHandlerInfo handlerInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.DeploymentEventsHandlerInfo.html">DeploymentEventsHandlerInfo</a></td>
+                    <td><em>handlerInfo</em></td>
+                    <td><p>Information about the handler to construct</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IDeploymentEventsHandler.html">IDeploymentEventsHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_GetExtensibilityPointHandler_Dropcraft_Common_Configuration_ExtensibilityPointInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.GetExtensibilityPointHandler(Dropcraft.Common.Configuration.ExtensibilityPointInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L34">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_GetExtensibilityPointHandler_" data-uid="Dropcraft.Common.EntityActivator.GetExtensibilityPointHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_GetExtensibilityPointHandler_Dropcraft_Common_Configuration_ExtensibilityPointInfo_" data-uid="Dropcraft.Common.EntityActivator.GetExtensibilityPointHandler(Dropcraft.Common.Configuration.ExtensibilityPointInfo)">GetExtensibilityPointHandler(ExtensibilityPointInfo)</h4>
+              <div class="markdown level1 summary"><p>Instantiates extensibility point using IExtensibilityPointInfo information</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IExtensibilityPointHandler GetExtensibilityPointHandler(ExtensibilityPointInfo info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.ExtensibilityPointInfo.html">ExtensibilityPointInfo</a></td>
+                    <td><em>info</em></td>
+                    <td><p>Information about the extensibility point</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IExtensibilityPointHandler.html">IExtensibilityPointHandler</a></td>
+                    <td><p>Instantiated extensibility point</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_GetExtension__1_Dropcraft_Common_Configuration_ExtensionInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.GetExtension%60%601(Dropcraft.Common.Configuration.ExtensionInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L47">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_GetExtension_" data-uid="Dropcraft.Common.EntityActivator.GetExtension*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_GetExtension__1_Dropcraft_Common_Configuration_ExtensionInfo_" data-uid="Dropcraft.Common.EntityActivator.GetExtension``1(Dropcraft.Common.Configuration.ExtensionInfo)">GetExtension&lt;T&gt;(ExtensionInfo)</h4>
+              <div class="markdown level1 summary"><p>Instantiates extension using IExtensionInfo information</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public T GetExtension&lt;T&gt;(ExtensionInfo info)where T : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.ExtensionInfo.html">ExtensionInfo</a></td>
+                    <td><em>info</em></td>
+                    <td><p>Information about the extension</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><p>Instantiated extension</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_GetPackageStartupHandler_Dropcraft_Common_Configuration_PackageStartupHandlerInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.GetPackageStartupHandler(Dropcraft.Common.Configuration.PackageStartupHandlerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L60">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_GetPackageStartupHandler_" data-uid="Dropcraft.Common.EntityActivator.GetPackageStartupHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_GetPackageStartupHandler_Dropcraft_Common_Configuration_PackageStartupHandlerInfo_" data-uid="Dropcraft.Common.EntityActivator.GetPackageStartupHandler(Dropcraft.Common.Configuration.PackageStartupHandlerInfo)">GetPackageStartupHandler(PackageStartupHandlerInfo)</h4>
+              <div class="markdown level1 summary"><p>Instantiates startup event handler using provided PackageStartupHandlerInfo</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IPackageStartupHandler GetPackageStartupHandler(PackageStartupHandlerInfo handlerInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.PackageStartupHandlerInfo.html">PackageStartupHandlerInfo</a></td>
+                    <td><em>handlerInfo</em></td>
+                    <td><p>Information about the handler to construct</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IPackageStartupHandler.html">IPackageStartupHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_GetRuntimeEventsHandler_Dropcraft_Common_Configuration_RuntimeEventsHandlerInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.GetRuntimeEventsHandler(Dropcraft.Common.Configuration.RuntimeEventsHandlerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L72">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_GetRuntimeEventsHandler_" data-uid="Dropcraft.Common.EntityActivator.GetRuntimeEventsHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_GetRuntimeEventsHandler_Dropcraft_Common_Configuration_RuntimeEventsHandlerInfo_" data-uid="Dropcraft.Common.EntityActivator.GetRuntimeEventsHandler(Dropcraft.Common.Configuration.RuntimeEventsHandlerInfo)">GetRuntimeEventsHandler(RuntimeEventsHandlerInfo)</h4>
+              <div class="markdown level1 summary"><p>Instantiates runtime events handler using provided RuntimeEventsHandlerInfo</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IRuntimeEventsHandler GetRuntimeEventsHandler(RuntimeEventsHandlerInfo handlerInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.RuntimeEventsHandlerInfo.html">RuntimeEventsHandlerInfo</a></td>
+                    <td><em>handlerInfo</em></td>
+                    <td><p>Information about the handler to construct</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IRuntimeEventsHandler.html">IRuntimeEventsHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_InitializeEntityActivator_Dropcraft_Common_EntityActivator_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.InitializeEntityActivator(Dropcraft.Common.EntityActivator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L24">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_InitializeEntityActivator_" data-uid="Dropcraft.Common.EntityActivator.InitializeEntityActivator*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_InitializeEntityActivator_Dropcraft_Common_EntityActivator_" data-uid="Dropcraft.Common.EntityActivator.InitializeEntityActivator(Dropcraft.Common.EntityActivator)">InitializeEntityActivator(EntityActivator)</h4>
+              <div class="markdown level1 summary"><p>InitializeEntityActivator allows to assign EntityActivator to use</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void InitializeEntityActivator(EntityActivator entityActivator)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.EntityActivator.html">EntityActivator</a></td>
+                    <td><em>entityActivator</em></td>
+                    <td><p>New EntityActivator</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_OnGetDeploymentEventsHandler_Dropcraft_Common_Configuration_DeploymentEventsHandlerInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.OnGetDeploymentEventsHandler(Dropcraft.Common.Configuration.DeploymentEventsHandlerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L90">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_OnGetDeploymentEventsHandler_" data-uid="Dropcraft.Common.EntityActivator.OnGetDeploymentEventsHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_OnGetDeploymentEventsHandler_Dropcraft_Common_Configuration_DeploymentEventsHandlerInfo_" data-uid="Dropcraft.Common.EntityActivator.OnGetDeploymentEventsHandler(Dropcraft.Common.Configuration.DeploymentEventsHandlerInfo)">OnGetDeploymentEventsHandler(DeploymentEventsHandlerInfo)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected abstract IDeploymentEventsHandler OnGetDeploymentEventsHandler(DeploymentEventsHandlerInfo handlerInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.DeploymentEventsHandlerInfo.html">DeploymentEventsHandlerInfo</a></td>
+                    <td><em>handlerInfo</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IDeploymentEventsHandler.html">IDeploymentEventsHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_OnGetExtensibilityPointHandler_Dropcraft_Common_Configuration_ExtensibilityPointInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.OnGetExtensibilityPointHandler(Dropcraft.Common.Configuration.ExtensibilityPointInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L40">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_OnGetExtensibilityPointHandler_" data-uid="Dropcraft.Common.EntityActivator.OnGetExtensibilityPointHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_OnGetExtensibilityPointHandler_Dropcraft_Common_Configuration_ExtensibilityPointInfo_" data-uid="Dropcraft.Common.EntityActivator.OnGetExtensibilityPointHandler(Dropcraft.Common.Configuration.ExtensibilityPointInfo)">OnGetExtensibilityPointHandler(ExtensibilityPointInfo)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected abstract IExtensibilityPointHandler OnGetExtensibilityPointHandler(ExtensibilityPointInfo info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.ExtensibilityPointInfo.html">ExtensibilityPointInfo</a></td>
+                    <td><em>info</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IExtensibilityPointHandler.html">IExtensibilityPointHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_OnGetExtension__1_Dropcraft_Common_Configuration_ExtensionInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.OnGetExtension%60%601(Dropcraft.Common.Configuration.ExtensionInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L53">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_OnGetExtension_" data-uid="Dropcraft.Common.EntityActivator.OnGetExtension*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_OnGetExtension__1_Dropcraft_Common_Configuration_ExtensionInfo_" data-uid="Dropcraft.Common.EntityActivator.OnGetExtension``1(Dropcraft.Common.Configuration.ExtensionInfo)">OnGetExtension&lt;T&gt;(ExtensionInfo)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected abstract T OnGetExtension&lt;T&gt;(ExtensionInfo info)where T : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.ExtensionInfo.html">ExtensionInfo</a></td>
+                    <td><em>info</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_OnGetPackageStartupHandler_Dropcraft_Common_Configuration_PackageStartupHandlerInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.OnGetPackageStartupHandler(Dropcraft.Common.Configuration.PackageStartupHandlerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L66">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_OnGetPackageStartupHandler_" data-uid="Dropcraft.Common.EntityActivator.OnGetPackageStartupHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_OnGetPackageStartupHandler_Dropcraft_Common_Configuration_PackageStartupHandlerInfo_" data-uid="Dropcraft.Common.EntityActivator.OnGetPackageStartupHandler(Dropcraft.Common.Configuration.PackageStartupHandlerInfo)">OnGetPackageStartupHandler(PackageStartupHandlerInfo)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected abstract IPackageStartupHandler OnGetPackageStartupHandler(PackageStartupHandlerInfo handlerInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.PackageStartupHandlerInfo.html">PackageStartupHandlerInfo</a></td>
+                    <td><em>handlerInfo</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IPackageStartupHandler.html">IPackageStartupHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator_OnGetRuntimeEventsHandler_Dropcraft_Common_Configuration_RuntimeEventsHandlerInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator.OnGetRuntimeEventsHandler(Dropcraft.Common.Configuration.RuntimeEventsHandlerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L78">View Source</a>
+              </span>
+              <a id="Dropcraft_Common_EntityActivator_OnGetRuntimeEventsHandler_" data-uid="Dropcraft.Common.EntityActivator.OnGetRuntimeEventsHandler*"></a>
+              <h4 id="Dropcraft_Common_EntityActivator_OnGetRuntimeEventsHandler_Dropcraft_Common_Configuration_RuntimeEventsHandlerInfo_" data-uid="Dropcraft.Common.EntityActivator.OnGetRuntimeEventsHandler(Dropcraft.Common.Configuration.RuntimeEventsHandlerInfo)">OnGetRuntimeEventsHandler(RuntimeEventsHandlerInfo)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected abstract IRuntimeEventsHandler OnGetRuntimeEventsHandler(RuntimeEventsHandlerInfo handlerInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Configuration.RuntimeEventsHandlerInfo.html">RuntimeEventsHandlerInfo</a></td>
+                    <td><em>handlerInfo</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Handlers.IRuntimeEventsHandler.html">IRuntimeEventsHandler</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_EntityActivator.md&amp;value=---%0Auid%3A%20Dropcraft.Common.EntityActivator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/EntityActivator.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2017 <a href="http://lunarfrog.com">Andrei Marukovich</a><br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

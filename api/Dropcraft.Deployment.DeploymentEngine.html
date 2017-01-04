@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DeploymentEngine
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DeploymentEngine
+   ">
+    <meta name="generator" content="docfx 2.8.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Dropcraft_Deployment_DeploymentEngine" data-uid="Dropcraft.Deployment.DeploymentEngine">Class DeploymentEngine
+              </h1>
+              <div class="markdown level0 summary"><p>Deployment engine responsible for the packages installation/uninstallation</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">DeploymentEngine</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Dropcraft.Deployment</h6>
+              <h6><strong>Assembly</strong>:Dropcraft.Deployment.dll</h6>
+              <h5 id="Dropcraft_Deployment_DeploymentEngine_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class DeploymentEngine : IDeploymentEngine</code></pre>
+              </div>
+              <h3 id="fields">Fields
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_NuGetEngine.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.NuGetEngine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L26">View Source</a>
+              </span>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_NuGetEngine" data-uid="Dropcraft.Deployment.DeploymentEngine.NuGetEngine">NuGetEngine</h4>
+              <div class="markdown level1 summary"><p>Associated NuGet engine (<a class="xref" href="Dropcraft.Deployment.NuGet.INuGetEngine.html">INuGetEngine</a>). </p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public INuGetEngine NuGetEngine</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Deployment.NuGet.INuGetEngine.html">INuGetEngine</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_PackageDeployer.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.PackageDeployer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L36">View Source</a>
+              </span>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_PackageDeployer" data-uid="Dropcraft.Deployment.DeploymentEngine.PackageDeployer">PackageDeployer</h4>
+              <div class="markdown level1 summary"><p>Associated package deployer (<a class="xref" href="Dropcraft.Deployment.Core.IPackageDeployer.html">IPackageDeployer</a>)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IPackageDeployer PackageDeployer</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Deployment.Core.IPackageDeployer.html">IPackageDeployer</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_PackageDiscoverer.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.PackageDiscoverer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L31">View Source</a>
+              </span>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_PackageDiscoverer" data-uid="Dropcraft.Deployment.DeploymentEngine.PackageDiscoverer">PackageDiscoverer</h4>
+              <div class="markdown level1 summary"><p>Associated package discoverer (<a class="xref" href="Dropcraft.Deployment.Core.IPackageDiscoverer.html">IPackageDiscoverer</a>)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IPackageDiscoverer PackageDiscoverer</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Deployment.Core.IPackageDiscoverer.html">IPackageDiscoverer</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_TransactionSource.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.TransactionSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L41">View Source</a>
+              </span>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_TransactionSource" data-uid="Dropcraft.Deployment.DeploymentEngine.TransactionSource">TransactionSource</h4>
+              <div class="markdown level1 summary"><p>Associated transaction source (<a class="xref" href="Dropcraft.Deployment.Core.IDeploymentTransactionSource.html">IDeploymentTransactionSource</a>)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IDeploymentTransactionSource TransactionSource</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Deployment.Core.IDeploymentTransactionSource.html">IDeploymentTransactionSource</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_DeploymentContext.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.DeploymentContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L62">View Source</a>
+              </span>
+              <a id="Dropcraft_Deployment_DeploymentEngine_DeploymentContext_" data-uid="Dropcraft.Deployment.DeploymentEngine.DeploymentContext*"></a>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_DeploymentContext" data-uid="Dropcraft.Deployment.DeploymentEngine.DeploymentContext">DeploymentContext</h4>
+              <div class="markdown level1 summary"><p>Assigned deployment context</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DeploymentContext DeploymentContext { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Deployment.DeploymentContext.html">DeploymentContext</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dropcraft.Common.Deployment.IDeploymentEngine.html#Dropcraft_Common_Deployment_IDeploymentEngine_DeploymentContext">IDeploymentEngine.DeploymentContext</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_DeploymentStrategyProvider.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.DeploymentStrategyProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L46">View Source</a>
+              </span>
+              <a id="Dropcraft_Deployment_DeploymentEngine_DeploymentStrategyProvider_" data-uid="Dropcraft.Deployment.DeploymentEngine.DeploymentStrategyProvider*"></a>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_DeploymentStrategyProvider" data-uid="Dropcraft.Deployment.DeploymentEngine.DeploymentStrategyProvider">DeploymentStrategyProvider</h4>
+              <div class="markdown level1 summary"><p>Associated deployment strategy provider (<a class="xref" href="Dropcraft.Common.Deployment.IDeploymentStrategyProvider.html">IDeploymentStrategyProvider</a>)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IDeploymentStrategyProvider DeploymentStrategyProvider { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Deployment.IDeploymentStrategyProvider.html">IDeploymentStrategyProvider</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_DontCachePackages.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.DontCachePackages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L57">View Source</a>
+              </span>
+              <a id="Dropcraft_Deployment_DeploymentEngine_DontCachePackages_" data-uid="Dropcraft.Deployment.DeploymentEngine.DontCachePackages*"></a>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_DontCachePackages" data-uid="Dropcraft.Deployment.DeploymentEngine.DontCachePackages">DontCachePackages</h4>
+              <div class="markdown level1 summary"><p>Gets a value indicating whether the packages should be cached or not.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool DontCachePackages { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_PackagesFolderPath.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.PackagesFolderPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L52">View Source</a>
+              </span>
+              <a id="Dropcraft_Deployment_DeploymentEngine_PackagesFolderPath_" data-uid="Dropcraft.Deployment.DeploymentEngine.PackagesFolderPath*"></a>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_PackagesFolderPath" data-uid="Dropcraft.Deployment.DeploymentEngine.PackagesFolderPath">PackagesFolderPath</h4>
+              <div class="markdown level1 summary"><p>Gets the packages folder path.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string PackagesFolderPath { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>The packages folder path.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_InstallPackages_System_Collections_Generic_ICollection_Dropcraft_Common_PackageId__Dropcraft_Common_Deployment_InstallationOptions_.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.InstallPackages(System.Collections.Generic.ICollection%7BDropcraft.Common.PackageId%7D%2CDropcraft.Common.Deployment.InstallationOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L119">View Source</a>
+              </span>
+              <a id="Dropcraft_Deployment_DeploymentEngine_InstallPackages_" data-uid="Dropcraft.Deployment.DeploymentEngine.InstallPackages*"></a>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_InstallPackages_System_Collections_Generic_ICollection_Dropcraft_Common_PackageId__Dropcraft_Common_Deployment_InstallationOptions_" data-uid="Dropcraft.Deployment.DeploymentEngine.InstallPackages(System.Collections.Generic.ICollection{Dropcraft.Common.PackageId},Dropcraft.Common.Deployment.InstallationOptions)">InstallPackages(ICollection&lt;PackageId&gt;, InstallationOptions)</h4>
+              <div class="markdown level1 summary"><p>Installs provided packages</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task InstallPackages(ICollection&lt;PackageId&gt; packages, InstallationOptions options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Dropcraft.Common.PackageId.html">PackageId</a>&gt;</td>
+                    <td><em>packages</em></td>
+                    <td><p>Packages to install</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Deployment.InstallationOptions.html">InstallationOptions</a></td>
+                    <td><em>options</em></td>
+                    <td><p>Additional options</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span></td>
+                    <td><p>Task</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dropcraft.Common.Deployment.IDeploymentEngine.html#Dropcraft_Common_Deployment_IDeploymentEngine_InstallPackages_System_Collections_Generic_ICollection_Dropcraft_Common_PackageId__Dropcraft_Common_Deployment_InstallationOptions_">IDeploymentEngine.InstallPackages(ICollection&lt;PackageId&gt;, InstallationOptions)</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine_UninstallPackages_System_Collections_Generic_ICollection_Dropcraft_Common_PackageId__Dropcraft_Common_Deployment_UninstallationOptions_.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine.UninstallPackages(System.Collections.Generic.ICollection%7BDropcraft.Common.PackageId%7D%2CDropcraft.Common.Deployment.UninstallationOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L190">View Source</a>
+              </span>
+              <a id="Dropcraft_Deployment_DeploymentEngine_UninstallPackages_" data-uid="Dropcraft.Deployment.DeploymentEngine.UninstallPackages*"></a>
+              <h4 id="Dropcraft_Deployment_DeploymentEngine_UninstallPackages_System_Collections_Generic_ICollection_Dropcraft_Common_PackageId__Dropcraft_Common_Deployment_UninstallationOptions_" data-uid="Dropcraft.Deployment.DeploymentEngine.UninstallPackages(System.Collections.Generic.ICollection{Dropcraft.Common.PackageId},Dropcraft.Common.Deployment.UninstallationOptions)">UninstallPackages(ICollection&lt;PackageId&gt;, UninstallationOptions)</h4>
+              <div class="markdown level1 summary"><p>Uninstalls provided packages</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task UninstallPackages(ICollection&lt;PackageId&gt; packages, UninstallationOptions options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Dropcraft.Common.PackageId.html">PackageId</a>&gt;</td>
+                    <td><em>packages</em></td>
+                    <td><p>Packages to uninstall</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Deployment.UninstallationOptions.html">UninstallationOptions</a></td>
+                    <td><em>options</em></td>
+                    <td><p>Additional options</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span></td>
+                    <td><p>Task</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dropcraft.Common.Deployment.IDeploymentEngine.html#Dropcraft_Common_Deployment_IDeploymentEngine_UninstallPackages_System_Collections_Generic_ICollection_Dropcraft_Common_PackageId__Dropcraft_Common_Deployment_UninstallationOptions_">IDeploymentEngine.UninstallPackages(ICollection&lt;PackageId&gt;, UninstallationOptions)</a></div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_DeploymentEngine.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.DeploymentEngine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/DeploymentEngine.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2017 <a href="http://lunarfrog.com">Andrei Marukovich</a><br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
