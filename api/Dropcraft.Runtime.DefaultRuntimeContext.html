@@ -86,6 +86,12 @@
                   <a class="xref" href="Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_ProductPath">RuntimeContext.ProductPath</a>
                 </div>
                 <div>
+                  <a class="xref" href="Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_EntityActivator">RuntimeContext.EntityActivator</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_RegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_">RuntimeContext.RegisterExtensibilityPoint(ExtensibilityPointInfo)</a>
+                </div>
+                <div>
                   <a class="xref" href="Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_RegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_">RuntimeContext.RegisterExtensibilityPoint(String, IExtensibilityPointHandler)</a>
                 </div>
                 <div>
@@ -144,19 +150,19 @@
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext__ctor_System_String_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext__ctor_System_String_Dropcraft_Common_Package_IEntityActivator_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.%23ctor(System.String%2CDropcraft.Common.Package.IEntityActivator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L29">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L30">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext__ctor_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.#ctor*"></a>
-              <h4 id="Dropcraft_Runtime_DefaultRuntimeContext__ctor_System_String_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.#ctor(System.String)">DefaultRuntimeContext(String)</h4>
+              <h4 id="Dropcraft_Runtime_DefaultRuntimeContext__ctor_System_String_Dropcraft_Common_Package_IEntityActivator_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.#ctor(System.String,Dropcraft.Common.Package.IEntityActivator)">DefaultRuntimeContext(String, IEntityActivator)</h4>
               <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Dropcraft.Runtime.DefaultRuntimeContext.html">DefaultRuntimeContext</a> class.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public DefaultRuntimeContext(string productPath)</code></pre>
+                <pre><code class="lang-csharp hljs">public DefaultRuntimeContext(string productPath, IEntityActivator entityActivator)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -174,6 +180,12 @@
                     <td><p>The product path.</p>
 </td>
                   </tr>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Package.IEntityActivator.html">IEntityActivator</a></td>
+                    <td><em>entityActivator</em></td>
+                    <td><p>Entity activator to use</p>
+</td>
+                  </tr>
                 </tbody>
               </table>
               <h3 id="methods">Methods
@@ -183,7 +195,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnGetExtensibilityPoint_System_String_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnGetExtensibilityPoint(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L93">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L113">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnGetExtensibilityPoint_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnGetExtensibilityPoint*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnGetExtensibilityPoint_System_String_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnGetExtensibilityPoint(System.String)">OnGetExtensibilityPoint(String)</h4>
@@ -235,7 +247,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnGetHostService__1.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnGetHostService%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L207">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L227">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnGetHostService_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnGetHostService*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnGetHostService__1" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnGetHostService``1">OnGetHostService&lt;T&gt;()</h4>
@@ -284,7 +296,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRaiseRuntimeEvent__1___0_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRaiseRuntimeEvent%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L178">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L198">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnRaiseRuntimeEvent_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRaiseRuntimeEvent*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRaiseRuntimeEvent__1___0_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRaiseRuntimeEvent``1(``0)">OnRaiseRuntimeEvent&lt;T&gt;(T)</h4>
@@ -335,7 +347,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterEventHandler__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterEventHandler%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L134">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L154">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterEventHandler_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterEventHandler*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterEventHandler__1_System_Action___0__" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterEventHandler``1(System.Action{``0})">OnRegisterEventHandler&lt;T&gt;(Action&lt;T&gt;)</h4>
@@ -383,19 +395,55 @@
               <div><span class="xref">Dropcraft.Common.Runtime.RuntimeContext.OnRegisterEventHandler&lt;T&gt;(System.Action&lt;T&gt;)</span></div>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(System.String%2CDropcraft.Common.Package.IExtensibilityPointHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L44">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L45">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint*"></a>
-              <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(System.String,Dropcraft.Common.Package.IExtensibilityPointHandler)">OnRegisterExtensibilityPoint(String, IExtensibilityPointHandler)</h4>
+              <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)">OnRegisterExtensibilityPoint(ExtensibilityPointInfo)</h4>
               <div class="markdown level1 summary"><p>Registers new extensibility point</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected override void OnRegisterExtensibilityPoint(string extensibilityPointKey, IExtensibilityPointHandler extensibilityPoint)</code></pre>
+                <pre><code class="lang-csharp hljs">protected override void OnRegisterExtensibilityPoint(ExtensibilityPointInfo extensibilityPointInfo)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Package.ExtensibilityPointInfo.html">ExtensibilityPointInfo</a></td>
+                    <td><em>extensibilityPointInfo</em></td>
+                    <td><p>The extensibility point information.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_OnRegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_">RuntimeContext.OnRegisterExtensibilityPoint(ExtensibilityPointInfo)</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(System.String%2CDropcraft.Common.Package.IExtensibilityPointHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L66">View Source</a>
+              </span>
+              <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint*"></a>
+              <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(System.String,Dropcraft.Common.Package.IExtensibilityPointHandler)">OnRegisterExtensibilityPoint(String, IExtensibilityPointHandler)</h4>
+              <div class="markdown level1 summary"><p>Registers an already instantiated and configured extensibility point handler. For this handler <a class="xref" href="Dropcraft.Common.Package.IExtensibilityPointHandler.html#Dropcraft_Common_Package_IExtensibilityPointHandler_Initialize_Dropcraft_Common_Package_ExtensibilityPointInfo_Dropcraft_Common_Runtime_RuntimeContext_">Initialize(ExtensibilityPointInfo, RuntimeContext)</a> will not be called.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected override void OnRegisterExtensibilityPoint(string extensibilityPointId, IExtensibilityPointHandler extensibilityPointHandler)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -409,14 +457,14 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><em>extensibilityPointKey</em></td>
-                    <td><p>Extensibility point key. Used to connect extensibility point and extensions</p>
+                    <td><em>extensibilityPointId</em></td>
+                    <td><p>Extensibility point ID</p>
 </td>
                   </tr>
                   <tr>
                     <td><a class="xref" href="Dropcraft.Common.Package.IExtensibilityPointHandler.html">IExtensibilityPointHandler</a></td>
-                    <td><em>extensibilityPoint</em></td>
-                    <td><p>Extensibility point definition</p>
+                    <td><em>extensibilityPointHandler</em></td>
+                    <td><p>Extensibility point handler</p>
 </td>
                   </tr>
                 </tbody>
@@ -428,7 +476,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtension_Dropcraft_Common_Package_ExtensionInfo_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtension(Dropcraft.Common.Package.ExtensionInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L107">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L127">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtension_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtension*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtension_Dropcraft_Common_Package_ExtensionInfo_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtension(Dropcraft.Common.Package.ExtensionInfo)">OnRegisterExtension(ExtensionInfo)</h4>
@@ -464,7 +512,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterHostService_System_Type_System_Func_System_Object__.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterHostService(System.Type%2CSystem.Func%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L223">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L243">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterHostService_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterHostService*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterHostService_System_Type_System_Func_System_Object__" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterHostService(System.Type,System.Func{System.Object})">OnRegisterHostService(Type, Func&lt;Object&gt;)</h4>
@@ -506,7 +554,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnUnregisterEventHandler__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnUnregisterEventHandler%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L155">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L175">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnUnregisterEventHandler_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnUnregisterEventHandler*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnUnregisterEventHandler__1_System_Action___0__" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnUnregisterEventHandler``1(System.Action{``0})">OnUnregisterEventHandler&lt;T&gt;(Action&lt;T&gt;)</h4>
@@ -557,7 +605,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Runtime_DefaultRuntimeContext_OnUnregisterExtensibilityPoint_System_String_.md&amp;value=---%0Auid%3A%20Dropcraft.Runtime.DefaultRuntimeContext.OnUnregisterExtensibilityPoint(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L75">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Runtime.NetStandard/RuntimeContext.cs/#L95">View Source</a>
               </span>
               <a id="Dropcraft_Runtime_DefaultRuntimeContext_OnUnregisterExtensibilityPoint_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnUnregisterExtensibilityPoint*"></a>
               <h4 id="Dropcraft_Runtime_DefaultRuntimeContext_OnUnregisterExtensibilityPoint_System_String_" data-uid="Dropcraft.Runtime.DefaultRuntimeContext.OnUnregisterExtensibilityPoint(System.String)">OnUnregisterExtensibilityPoint(String)</h4>

@@ -89,6 +89,9 @@
                   <a class="xref" href="Dropcraft.Common.Deployment.DeploymentContext.html#Dropcraft_Common_Deployment_DeploymentContext_ProductPath">DeploymentContext.ProductPath</a>
                 </div>
                 <div>
+                  <a class="xref" href="Dropcraft.Common.Deployment.DeploymentContext.html#Dropcraft_Common_Deployment_DeploymentContext_EntityActivator">DeploymentContext.EntityActivator</a>
+                </div>
+                <div>
                   <a class="xref" href="Dropcraft.Common.Deployment.DeploymentContext.html#Dropcraft_Common_Deployment_DeploymentContext_ProductConfigurationProvider">DeploymentContext.ProductConfigurationProvider</a>
                 </div>
                 <div>
@@ -135,19 +138,19 @@
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_System_String_System_String_Dropcraft_Common_Package_IPackageConfigurationProvider_Dropcraft_Common_IProductConfigurationProvider_.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Core.DefaultDeploymentContext.%23ctor(System.String%2CSystem.String%2CDropcraft.Common.Package.IPackageConfigurationProvider%2CDropcraft.Common.IProductConfigurationProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_System_String_System_String_Dropcraft_Common_Package_IEntityActivator_Dropcraft_Common_Package_IPackageConfigurationProvider_Dropcraft_Common_IProductConfigurationProvider_.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Core.DefaultDeploymentContext.%23ctor(System.String%2CSystem.String%2CDropcraft.Common.Package.IEntityActivator%2CDropcraft.Common.Package.IPackageConfigurationProvider%2CDropcraft.Common.IProductConfigurationProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L27">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L28">View Source</a>
               </span>
               <a id="Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor*"></a>
-              <h4 id="Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_System_String_System_String_Dropcraft_Common_Package_IPackageConfigurationProvider_Dropcraft_Common_IProductConfigurationProvider_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor(System.String,System.String,Dropcraft.Common.Package.IPackageConfigurationProvider,Dropcraft.Common.IProductConfigurationProvider)">DefaultDeploymentContext(String, String, IPackageConfigurationProvider, IProductConfigurationProvider)</h4>
+              <h4 id="Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_System_String_System_String_Dropcraft_Common_Package_IEntityActivator_Dropcraft_Common_Package_IPackageConfigurationProvider_Dropcraft_Common_IProductConfigurationProvider_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor(System.String,System.String,Dropcraft.Common.Package.IEntityActivator,Dropcraft.Common.Package.IPackageConfigurationProvider,Dropcraft.Common.IProductConfigurationProvider)">DefaultDeploymentContext(String, String, IEntityActivator, IPackageConfigurationProvider, IProductConfigurationProvider)</h4>
               <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Dropcraft.Deployment.Core.DefaultDeploymentContext.html">DefaultDeploymentContext</a> class.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public DefaultDeploymentContext(string productPath, string framework, IPackageConfigurationProvider packageConfigurationProvider, IProductConfigurationProvider productConfigurationProvider)</code></pre>
+                <pre><code class="lang-csharp hljs">public DefaultDeploymentContext(string productPath, string framework, IEntityActivator entityActivator, IPackageConfigurationProvider packageConfigurationProvider, IProductConfigurationProvider productConfigurationProvider)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -172,6 +175,12 @@
 </td>
                   </tr>
                   <tr>
+                    <td><a class="xref" href="Dropcraft.Common.Package.IEntityActivator.html">IEntityActivator</a></td>
+                    <td><em>entityActivator</em></td>
+                    <td><p>Entity activator to use</p>
+</td>
+                  </tr>
+                  <tr>
                     <td><a class="xref" href="Dropcraft.Common.Package.IPackageConfigurationProvider.html">IPackageConfigurationProvider</a></td>
                     <td><em>packageConfigurationProvider</em></td>
                     <td><p>The package configuration provider.</p>
@@ -192,7 +201,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Core_DefaultDeploymentContext_OnRaiseDeploymentEvent__1___0_.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Core.DefaultDeploymentContext.OnRaiseDeploymentEvent%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L87">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L89">View Source</a>
               </span>
               <a id="Dropcraft_Deployment_Core_DefaultDeploymentContext_OnRaiseDeploymentEvent_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.OnRaiseDeploymentEvent*"></a>
               <h4 id="Dropcraft_Deployment_Core_DefaultDeploymentContext_OnRaiseDeploymentEvent__1___0_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.OnRaiseDeploymentEvent``1(``0)">OnRaiseDeploymentEvent&lt;T&gt;(T)</h4>
@@ -243,7 +252,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Core_DefaultDeploymentContext_OnRegisterEventHandler__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Core.DefaultDeploymentContext.OnRegisterEventHandler%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L43">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L45">View Source</a>
               </span>
               <a id="Dropcraft_Deployment_Core_DefaultDeploymentContext_OnRegisterEventHandler_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.OnRegisterEventHandler*"></a>
               <h4 id="Dropcraft_Deployment_Core_DefaultDeploymentContext_OnRegisterEventHandler__1_System_Action___0__" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.OnRegisterEventHandler``1(System.Action{``0})">OnRegisterEventHandler&lt;T&gt;(Action&lt;T&gt;)</h4>
@@ -294,7 +303,7 @@
                 <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Core_DefaultDeploymentContext_OnUnregisterEventHandler__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Core.DefaultDeploymentContext.OnUnregisterEventHandler%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L64">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Core/DefaultDeploymentContext.cs/#L66">View Source</a>
               </span>
               <a id="Dropcraft_Deployment_Core_DefaultDeploymentContext_OnUnregisterEventHandler_" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.OnUnregisterEventHandler*"></a>
               <h4 id="Dropcraft_Deployment_Core_DefaultDeploymentContext_OnUnregisterEventHandler__1_System_Action___0__" data-uid="Dropcraft.Deployment.Core.DefaultDeploymentContext.OnUnregisterEventHandler``1(System.Action{``0})">OnUnregisterEventHandler&lt;T&gt;(Action&lt;T&gt;)</h4>

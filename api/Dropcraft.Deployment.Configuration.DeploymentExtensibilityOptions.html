@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NewExtensionRegistrationEvent
+    <title>Class DeploymentExtensibilityOptions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NewExtensionRegistrationEvent
+    <meta name="title" content="Class DeploymentExtensibilityOptions
    ">
     <meta name="generator" content="docfx 2.8.2.0">
     
@@ -69,22 +69,18 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Dropcraft_Common_Runtime_NewExtensionRegistrationEvent" data-uid="Dropcraft.Common.Runtime.NewExtensionRegistrationEvent">Class NewExtensionRegistrationEvent
+              <h1 id="Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions" data-uid="Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions">Class DeploymentExtensibilityOptions
               </h1>
-              <div class="markdown level0 summary"><p>Happens before new extension point is registered</p>
+              <div class="markdown level0 summary"><p>Allows to configure extensibility options</p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><a class="xref" href="Dropcraft.Common.Runtime.RuntimeEvent.html">RuntimeEvent</a></div>
-                  <div class="level2"><span class="xref">NewExtensionRegistrationEvent</span></div>
+                  <div class="level1"><span class="xref">DeploymentExtensibilityOptions</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="Dropcraft.Common.Runtime.RuntimeEvent.html#Dropcraft_Common_Runtime_RuntimeEvent_Context">RuntimeEvent.Context</a>
-                </div>
                 <div>
                   <span class="xref">System.Object.Equals(System.Object)</span>
                 </div>
@@ -107,62 +103,49 @@
                   <span class="xref">System.Object.ToString()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Dropcraft.Common.Runtime</h6>
-              <h6><strong>Assembly</strong>:Dropcraft.Common.dll</h6>
-              <h5 id="Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_syntax">Syntax</h5>
+              <h6><strong>Namespace</strong>:Dropcraft.Deployment.Configuration</h6>
+              <h6><strong>Assembly</strong>:Dropcraft.Deployment.dll</h6>
+              <h5 id="Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class NewExtensionRegistrationEvent : RuntimeEvent</code></pre>
+                <pre><code class="lang-csharp hljs">public class DeploymentExtensibilityOptions</code></pre>
               </div>
-              <h3 id="properties">Properties
+              <h3 id="methods">Methods
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_Extension.md&amp;value=---%0Auid%3A%20Dropcraft.Common.Runtime.NewExtensionRegistrationEvent.Extension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions_UsePackageEntityActivator_Dropcraft_Common_Package_IEntityActivator_.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator(Dropcraft.Common.Package.IEntityActivator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/Runtime/RuntimeEvent.cs/#L122">View Source</a>
+                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Configuration/DeploymentExtensibilityOptions.cs/#L22">View Source</a>
               </span>
-              <a id="Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_Extension_" data-uid="Dropcraft.Common.Runtime.NewExtensionRegistrationEvent.Extension*"></a>
-              <h4 id="Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_Extension" data-uid="Dropcraft.Common.Runtime.NewExtensionRegistrationEvent.Extension">Extension</h4>
-              <div class="markdown level1 summary"><p>Extension requested to be registered</p>
+              <a id="Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions_UsePackageEntityActivator_" data-uid="Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator*"></a>
+              <h4 id="Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions_UsePackageEntityActivator_Dropcraft_Common_Package_IEntityActivator_" data-uid="Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator(Dropcraft.Common.Package.IEntityActivator)">UsePackageEntityActivator(IEntityActivator)</h4>
+              <div class="markdown level1 summary"><p>Allows to setup a custom activator for the package entities</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public ExtensionInfo Extension { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">public DeploymentConfiguration UsePackageEntityActivator(IEntityActivator entityActivator)</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
                     <th>Type</th>
+                    <th>Name</th>
                     <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Dropcraft.Common.Package.ExtensionInfo.html">ExtensionInfo</a></td>
-                    <td></td>
+                    <td><a class="xref" href="Dropcraft.Common.Package.IEntityActivator.html">IEntityActivator</a></td>
+                    <td><em>entityActivator</em></td>
+                    <td><p>Custom activator</p>
+</td>
                   </tr>
                 </tbody>
               </table>
-              <span class="small pull-right mobile-hide">
-                <span class="divider">|</span>
-                <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_IsRegistrationAllowed.md&amp;value=---%0Auid%3A%20Dropcraft.Common.Runtime.NewExtensionRegistrationEvent.IsRegistrationAllowed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/Runtime/RuntimeEvent.cs/#L127">View Source</a>
-              </span>
-              <a id="Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_IsRegistrationAllowed_" data-uid="Dropcraft.Common.Runtime.NewExtensionRegistrationEvent.IsRegistrationAllowed*"></a>
-              <h4 id="Dropcraft_Common_Runtime_NewExtensionRegistrationEvent_IsRegistrationAllowed" data-uid="Dropcraft.Common.Runtime.NewExtensionRegistrationEvent.IsRegistrationAllowed">IsRegistrationAllowed</h4>
-              <div class="markdown level1 summary"><p>Allows to block the extension registration</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool IsRegistrationAllowed { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -172,8 +155,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Boolean</span></td>
-                    <td></td>
+                    <td><a class="xref" href="Dropcraft.Deployment.DeploymentConfiguration.html">DeploymentConfiguration</a></td>
+                    <td><p>Configuration object</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -185,10 +169,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Common_Runtime_NewExtensionRegistrationEvent.md&amp;value=---%0Auid%3A%20Dropcraft.Common.Runtime.NewExtensionRegistrationEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Dropcraft/Dropcraft/new/master/docs/apispec/new?filename=Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions.md&amp;value=---%0Auid%3A%20Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Common.NetStandard/Runtime/RuntimeEvent.cs/#L117" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Dropcraft/Dropcraft/blob/master/src/Dropcraft.Deployment.NetStandard/Configuration/DeploymentExtensibilityOptions.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

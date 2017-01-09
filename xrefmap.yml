@@ -1027,6 +1027,18 @@ references:
   commentId: T:Dropcraft.Common.Deployment.DeploymentContext
   fullName: Dropcraft.Common.Deployment.DeploymentContext
   nameWithType: DeploymentContext
+- uid: Dropcraft.Common.Deployment.DeploymentContext.EntityActivator
+  name: EntityActivator
+  href: api/Dropcraft.Common.Deployment.DeploymentContext.html#Dropcraft_Common_Deployment_DeploymentContext_EntityActivator
+  commentId: P:Dropcraft.Common.Deployment.DeploymentContext.EntityActivator
+  fullName: Dropcraft.Common.Deployment.DeploymentContext.EntityActivator
+  nameWithType: DeploymentContext.EntityActivator
+- uid: Dropcraft.Common.Deployment.DeploymentContext.EntityActivator*
+  name: EntityActivator
+  href: api/Dropcraft.Common.Deployment.DeploymentContext.html#Dropcraft_Common_Deployment_DeploymentContext_EntityActivator_
+  commentId: Overload:Dropcraft.Common.Deployment.DeploymentContext.EntityActivator
+  fullName: Dropcraft.Common.Deployment.DeploymentContext.EntityActivator
+  nameWithType: DeploymentContext.EntityActivator
 - uid: Dropcraft.Common.Deployment.DeploymentContext.OnRaiseDeploymentEvent*
   name: OnRaiseDeploymentEvent<T>
   href: api/Dropcraft.Common.Deployment.DeploymentContext.html#Dropcraft_Common_Deployment_DeploymentContext_OnRaiseDeploymentEvent_
@@ -3910,6 +3922,36 @@ references:
   commentId: N:Dropcraft.Common.Runtime
   fullName: Dropcraft.Common.Runtime
   nameWithType: Dropcraft.Common.Runtime
+- uid: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent
+  name: AfterExtensibilityPointRegisteredEvent
+  href: api/Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.html
+  commentId: T:Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent
+  fullName: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent
+  nameWithType: AfterExtensibilityPointRegisteredEvent
+- uid: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+  name: ExtensibilityPointHandler
+  href: api/Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.html#Dropcraft_Common_Runtime_AfterExtensibilityPointRegisteredEvent_ExtensibilityPointHandler
+  commentId: P:Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+  fullName: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+  nameWithType: AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+- uid: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler*
+  name: ExtensibilityPointHandler
+  href: api/Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.html#Dropcraft_Common_Runtime_AfterExtensibilityPointRegisteredEvent_ExtensibilityPointHandler_
+  commentId: Overload:Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+  fullName: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+  nameWithType: AfterExtensibilityPointRegisteredEvent.ExtensibilityPointHandler
+- uid: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
+  name: ExtensibilityPointId
+  href: api/Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.html#Dropcraft_Common_Runtime_AfterExtensibilityPointRegisteredEvent_ExtensibilityPointId
+  commentId: P:Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
+  fullName: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
+  nameWithType: AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
+- uid: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId*
+  name: ExtensibilityPointId
+  href: api/Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.html#Dropcraft_Common_Runtime_AfterExtensibilityPointRegisteredEvent_ExtensibilityPointId_
+  commentId: Overload:Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
+  fullName: Dropcraft.Common.Runtime.AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
+  nameWithType: AfterExtensibilityPointRegisteredEvent.ExtensibilityPointId
 - uid: Dropcraft.Common.Runtime.AfterPackageLoadedEvent
   name: AfterPackageLoadedEvent
   href: api/Dropcraft.Common.Runtime.AfterPackageLoadedEvent.html
@@ -3976,18 +4018,18 @@ references:
   commentId: T:Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent
   fullName: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent
   nameWithType: ExtensibilityPointUnregistrationEvent
-- uid: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
-  name: ExtensibilityPointKey
-  href: api/Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.html#Dropcraft_Common_Runtime_ExtensibilityPointUnregistrationEvent_ExtensibilityPointKey
-  commentId: P:Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
-  fullName: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
-  nameWithType: ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
-- uid: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey*
-  name: ExtensibilityPointKey
-  href: api/Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.html#Dropcraft_Common_Runtime_ExtensibilityPointUnregistrationEvent_ExtensibilityPointKey_
-  commentId: Overload:Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
-  fullName: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
-  nameWithType: ExtensibilityPointUnregistrationEvent.ExtensibilityPointKey
+- uid: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
+  name: ExtensibilityPointId
+  href: api/Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.html#Dropcraft_Common_Runtime_ExtensibilityPointUnregistrationEvent_ExtensibilityPointId
+  commentId: P:Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
+  fullName: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
+  nameWithType: ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
+- uid: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointId*
+  name: ExtensibilityPointId
+  href: api/Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.html#Dropcraft_Common_Runtime_ExtensibilityPointUnregistrationEvent_ExtensibilityPointId_
+  commentId: Overload:Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
+  fullName: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
+  nameWithType: ExtensibilityPointUnregistrationEvent.ExtensibilityPointId
 - uid: Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.IsUnregistrationAllowed
   name: IsUnregistrationAllowed
   href: api/Dropcraft.Common.Runtime.ExtensibilityPointUnregistrationEvent.html#Dropcraft_Common_Runtime_ExtensibilityPointUnregistrationEvent_IsUnregistrationAllowed
@@ -4057,30 +4099,18 @@ references:
   commentId: T:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent
   fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent
   nameWithType: NewExtensibilityPointRegistrationEvent
-- uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-  name: ExtensibilityPointHandler
-  href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_ExtensibilityPointHandler
-  commentId: P:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-  fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-  nameWithType: NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-- uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler*
-  name: ExtensibilityPointHandler
-  href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_ExtensibilityPointHandler_
-  commentId: Overload:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-  fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-  nameWithType: NewExtensibilityPointRegistrationEvent.ExtensibilityPointHandler
-- uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
-  name: ExtensibilityPointKey
-  href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_ExtensibilityPointKey
-  commentId: P:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
-  fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
-  nameWithType: NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
-- uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey*
-  name: ExtensibilityPointKey
-  href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_ExtensibilityPointKey_
-  commentId: Overload:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
-  fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
-  nameWithType: NewExtensibilityPointRegistrationEvent.ExtensibilityPointKey
+- uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
+  name: ExtensibilityPoint
+  href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_ExtensibilityPoint
+  commentId: P:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
+  fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
+  nameWithType: NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
+- uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPoint*
+  name: ExtensibilityPoint
+  href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_ExtensibilityPoint_
+  commentId: Overload:Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
+  fullName: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
+  nameWithType: NewExtensibilityPointRegistrationEvent.ExtensibilityPoint
 - uid: Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.IsRegistrationAllowed
   name: IsRegistrationAllowed
   href: api/Dropcraft.Common.Runtime.NewExtensibilityPointRegistrationEvent.html#Dropcraft_Common_Runtime_NewExtensibilityPointRegistrationEvent_IsRegistrationAllowed
@@ -4129,6 +4159,18 @@ references:
   commentId: T:Dropcraft.Common.Runtime.RuntimeContext
   fullName: Dropcraft.Common.Runtime.RuntimeContext
   nameWithType: RuntimeContext
+- uid: Dropcraft.Common.Runtime.RuntimeContext.EntityActivator
+  name: EntityActivator
+  href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_EntityActivator
+  commentId: P:Dropcraft.Common.Runtime.RuntimeContext.EntityActivator
+  fullName: Dropcraft.Common.Runtime.RuntimeContext.EntityActivator
+  nameWithType: RuntimeContext.EntityActivator
+- uid: Dropcraft.Common.Runtime.RuntimeContext.EntityActivator*
+  name: EntityActivator
+  href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_EntityActivator_
+  commentId: Overload:Dropcraft.Common.Runtime.RuntimeContext.EntityActivator
+  fullName: Dropcraft.Common.Runtime.RuntimeContext.EntityActivator
+  nameWithType: RuntimeContext.EntityActivator
 - uid: Dropcraft.Common.Runtime.RuntimeContext.GetExtensibilityPoint(System.String)
   name: GetExtensibilityPoint(String)
   href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_GetExtensibilityPoint_System_String_
@@ -4225,6 +4267,12 @@ references:
   fullName.vb: Dropcraft.Common.Runtime.RuntimeContext.OnRegisterEventHandler(Of T)(System.Action(Of T))
   nameWithType: RuntimeContext.OnRegisterEventHandler<T>(Action<T>)
   nameWithType.vb: OnRegisterEventHandler(Of T)(Action(Of T))
+- uid: Dropcraft.Common.Runtime.RuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  name: OnRegisterExtensibilityPoint(ExtensibilityPointInfo)
+  href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_OnRegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_
+  commentId: M:Dropcraft.Common.Runtime.RuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  fullName: Dropcraft.Common.Runtime.RuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  nameWithType: RuntimeContext.OnRegisterExtensibilityPoint(ExtensibilityPointInfo)
 - uid: Dropcraft.Common.Runtime.RuntimeContext.OnRegisterExtensibilityPoint(System.String,Dropcraft.Common.Package.IExtensibilityPointHandler)
   name: OnRegisterExtensibilityPoint(String, IExtensibilityPointHandler)
   href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_OnRegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_
@@ -4336,6 +4384,12 @@ references:
   fullName.vb: Dropcraft.Common.Runtime.RuntimeContext.RegisterEventHandler(Of T)(System.Action(Of T))
   nameWithType: RuntimeContext.RegisterEventHandler<T>(Action<T>)
   nameWithType.vb: RegisterEventHandler(Of T)(Action(Of T))
+- uid: Dropcraft.Common.Runtime.RuntimeContext.RegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  name: RegisterExtensibilityPoint(ExtensibilityPointInfo)
+  href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_RegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_
+  commentId: M:Dropcraft.Common.Runtime.RuntimeContext.RegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  fullName: Dropcraft.Common.Runtime.RuntimeContext.RegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  nameWithType: RuntimeContext.RegisterExtensibilityPoint(ExtensibilityPointInfo)
 - uid: Dropcraft.Common.Runtime.RuntimeContext.RegisterExtensibilityPoint(System.String,Dropcraft.Common.Package.IExtensibilityPointHandler)
   name: RegisterExtensibilityPoint(String, IExtensibilityPointHandler)
   href: api/Dropcraft.Common.Runtime.RuntimeContext.html#Dropcraft_Common_Runtime_RuntimeContext_RegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_
@@ -5350,6 +5404,24 @@ references:
   commentId: N:Dropcraft.Deployment.Configuration
   fullName: Dropcraft.Deployment.Configuration
   nameWithType: Dropcraft.Deployment.Configuration
+- uid: Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions
+  name: DeploymentExtensibilityOptions
+  href: api/Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.html
+  commentId: T:Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions
+  fullName: Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions
+  nameWithType: DeploymentExtensibilityOptions
+- uid: Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator(Dropcraft.Common.Package.IEntityActivator)
+  name: UsePackageEntityActivator(IEntityActivator)
+  href: api/Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.html#Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions_UsePackageEntityActivator_Dropcraft_Common_Package_IEntityActivator_
+  commentId: M:Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator(Dropcraft.Common.Package.IEntityActivator)
+  fullName: Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator(Dropcraft.Common.Package.IEntityActivator)
+  nameWithType: DeploymentExtensibilityOptions.UsePackageEntityActivator(IEntityActivator)
+- uid: Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator*
+  name: UsePackageEntityActivator
+  href: api/Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.html#Dropcraft_Deployment_Configuration_DeploymentExtensibilityOptions_UsePackageEntityActivator_
+  commentId: Overload:Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator
+  fullName: Dropcraft.Deployment.Configuration.DeploymentExtensibilityOptions.UsePackageEntityActivator
+  nameWithType: DeploymentExtensibilityOptions.UsePackageEntityActivator
 - uid: Dropcraft.Deployment.Configuration.DeploymentStarategyProvider
   name: DeploymentStarategyProvider
   href: api/Dropcraft.Deployment.Configuration.DeploymentStarategyProvider.html
@@ -5641,12 +5713,12 @@ references:
   commentId: T:Dropcraft.Deployment.Core.DefaultDeploymentContext
   fullName: Dropcraft.Deployment.Core.DefaultDeploymentContext
   nameWithType: DefaultDeploymentContext
-- uid: Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor(System.String,System.String,Dropcraft.Common.Package.IPackageConfigurationProvider,Dropcraft.Common.IProductConfigurationProvider)
-  name: DefaultDeploymentContext(String, String, IPackageConfigurationProvider, IProductConfigurationProvider)
-  href: api/Dropcraft.Deployment.Core.DefaultDeploymentContext.html#Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_System_String_System_String_Dropcraft_Common_Package_IPackageConfigurationProvider_Dropcraft_Common_IProductConfigurationProvider_
-  commentId: M:Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor(System.String,System.String,Dropcraft.Common.Package.IPackageConfigurationProvider,Dropcraft.Common.IProductConfigurationProvider)
-  fullName: Dropcraft.Deployment.Core.DefaultDeploymentContext.DefaultDeploymentContext(System.String, System.String, Dropcraft.Common.Package.IPackageConfigurationProvider, Dropcraft.Common.IProductConfigurationProvider)
-  nameWithType: DefaultDeploymentContext.DefaultDeploymentContext(String, String, IPackageConfigurationProvider, IProductConfigurationProvider)
+- uid: Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor(System.String,System.String,Dropcraft.Common.Package.IEntityActivator,Dropcraft.Common.Package.IPackageConfigurationProvider,Dropcraft.Common.IProductConfigurationProvider)
+  name: DefaultDeploymentContext(String, String, IEntityActivator, IPackageConfigurationProvider, IProductConfigurationProvider)
+  href: api/Dropcraft.Deployment.Core.DefaultDeploymentContext.html#Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_System_String_System_String_Dropcraft_Common_Package_IEntityActivator_Dropcraft_Common_Package_IPackageConfigurationProvider_Dropcraft_Common_IProductConfigurationProvider_
+  commentId: M:Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor(System.String,System.String,Dropcraft.Common.Package.IEntityActivator,Dropcraft.Common.Package.IPackageConfigurationProvider,Dropcraft.Common.IProductConfigurationProvider)
+  fullName: Dropcraft.Deployment.Core.DefaultDeploymentContext.DefaultDeploymentContext(System.String, System.String, Dropcraft.Common.Package.IEntityActivator, Dropcraft.Common.Package.IPackageConfigurationProvider, Dropcraft.Common.IProductConfigurationProvider)
+  nameWithType: DefaultDeploymentContext.DefaultDeploymentContext(String, String, IEntityActivator, IPackageConfigurationProvider, IProductConfigurationProvider)
 - uid: Dropcraft.Deployment.Core.DefaultDeploymentContext.#ctor*
   name: DefaultDeploymentContext
   href: api/Dropcraft.Deployment.Core.DefaultDeploymentContext.html#Dropcraft_Deployment_Core_DefaultDeploymentContext__ctor_
@@ -6751,6 +6823,18 @@ references:
   commentId: Overload:Dropcraft.Deployment.DeploymentConfiguration.ForDeployment
   fullName: Dropcraft.Deployment.DeploymentConfiguration.ForDeployment
   nameWithType: DeploymentConfiguration.ForDeployment
+- uid: Dropcraft.Deployment.DeploymentConfiguration.ForExtensibility
+  name: ForExtensibility
+  href: api/Dropcraft.Deployment.DeploymentConfiguration.html#Dropcraft_Deployment_DeploymentConfiguration_ForExtensibility
+  commentId: P:Dropcraft.Deployment.DeploymentConfiguration.ForExtensibility
+  fullName: Dropcraft.Deployment.DeploymentConfiguration.ForExtensibility
+  nameWithType: DeploymentConfiguration.ForExtensibility
+- uid: Dropcraft.Deployment.DeploymentConfiguration.ForExtensibility*
+  name: ForExtensibility
+  href: api/Dropcraft.Deployment.DeploymentConfiguration.html#Dropcraft_Deployment_DeploymentConfiguration_ForExtensibility_
+  commentId: Overload:Dropcraft.Deployment.DeploymentConfiguration.ForExtensibility
+  fullName: Dropcraft.Deployment.DeploymentConfiguration.ForExtensibility
+  nameWithType: DeploymentConfiguration.ForExtensibility
 - uid: Dropcraft.Deployment.DeploymentConfiguration.ForPackages
   name: ForPackages
   href: api/Dropcraft.Deployment.DeploymentConfiguration.html#Dropcraft_Deployment_DeploymentConfiguration_ForPackages
@@ -9640,12 +9724,12 @@ references:
   commentId: T:Dropcraft.Runtime.DefaultRuntimeContext
   fullName: Dropcraft.Runtime.DefaultRuntimeContext
   nameWithType: DefaultRuntimeContext
-- uid: Dropcraft.Runtime.DefaultRuntimeContext.#ctor(System.String)
-  name: DefaultRuntimeContext(String)
-  href: api/Dropcraft.Runtime.DefaultRuntimeContext.html#Dropcraft_Runtime_DefaultRuntimeContext__ctor_System_String_
-  commentId: M:Dropcraft.Runtime.DefaultRuntimeContext.#ctor(System.String)
-  fullName: Dropcraft.Runtime.DefaultRuntimeContext.DefaultRuntimeContext(System.String)
-  nameWithType: DefaultRuntimeContext.DefaultRuntimeContext(String)
+- uid: Dropcraft.Runtime.DefaultRuntimeContext.#ctor(System.String,Dropcraft.Common.Package.IEntityActivator)
+  name: DefaultRuntimeContext(String, IEntityActivator)
+  href: api/Dropcraft.Runtime.DefaultRuntimeContext.html#Dropcraft_Runtime_DefaultRuntimeContext__ctor_System_String_Dropcraft_Common_Package_IEntityActivator_
+  commentId: M:Dropcraft.Runtime.DefaultRuntimeContext.#ctor(System.String,Dropcraft.Common.Package.IEntityActivator)
+  fullName: Dropcraft.Runtime.DefaultRuntimeContext.DefaultRuntimeContext(System.String, Dropcraft.Common.Package.IEntityActivator)
+  nameWithType: DefaultRuntimeContext.DefaultRuntimeContext(String, IEntityActivator)
 - uid: Dropcraft.Runtime.DefaultRuntimeContext.#ctor*
   name: DefaultRuntimeContext
   href: api/Dropcraft.Runtime.DefaultRuntimeContext.html#Dropcraft_Runtime_DefaultRuntimeContext__ctor_
@@ -9718,6 +9802,12 @@ references:
   fullName.vb: Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterEventHandler(Of T)(System.Action(Of T))
   nameWithType: DefaultRuntimeContext.OnRegisterEventHandler<T>(Action<T>)
   nameWithType.vb: OnRegisterEventHandler(Of T)(Action(Of T))
+- uid: Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  name: OnRegisterExtensibilityPoint(ExtensibilityPointInfo)
+  href: api/Dropcraft.Runtime.DefaultRuntimeContext.html#Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_Dropcraft_Common_Package_ExtensibilityPointInfo_
+  commentId: M:Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  fullName: Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(Dropcraft.Common.Package.ExtensibilityPointInfo)
+  nameWithType: DefaultRuntimeContext.OnRegisterExtensibilityPoint(ExtensibilityPointInfo)
 - uid: Dropcraft.Runtime.DefaultRuntimeContext.OnRegisterExtensibilityPoint(System.String,Dropcraft.Common.Package.IExtensibilityPointHandler)
   name: OnRegisterExtensibilityPoint(String, IExtensibilityPointHandler)
   href: api/Dropcraft.Runtime.DefaultRuntimeContext.html#Dropcraft_Runtime_DefaultRuntimeContext_OnRegisterExtensibilityPoint_System_String_Dropcraft_Common_Package_IExtensibilityPointHandler_
@@ -10003,18 +10093,6 @@ references:
   commentId: Overload:Dropcraft.Runtime.RuntimeEngine.ConfigurationProvider
   fullName: Dropcraft.Runtime.RuntimeEngine.ConfigurationProvider
   nameWithType: RuntimeEngine.ConfigurationProvider
-- uid: Dropcraft.Runtime.RuntimeEngine.EntityActivator
-  name: EntityActivator
-  href: api/Dropcraft.Runtime.RuntimeEngine.html#Dropcraft_Runtime_RuntimeEngine_EntityActivator
-  commentId: P:Dropcraft.Runtime.RuntimeEngine.EntityActivator
-  fullName: Dropcraft.Runtime.RuntimeEngine.EntityActivator
-  nameWithType: RuntimeEngine.EntityActivator
-- uid: Dropcraft.Runtime.RuntimeEngine.EntityActivator*
-  name: EntityActivator
-  href: api/Dropcraft.Runtime.RuntimeEngine.html#Dropcraft_Runtime_RuntimeEngine_EntityActivator_
-  commentId: Overload:Dropcraft.Runtime.RuntimeEngine.EntityActivator
-  fullName: Dropcraft.Runtime.RuntimeEngine.EntityActivator
-  nameWithType: RuntimeEngine.EntityActivator
 - uid: Dropcraft.Runtime.RuntimeEngine.RuntimeContext
   name: RuntimeContext
   href: api/Dropcraft.Runtime.RuntimeEngine.html#Dropcraft_Runtime_RuntimeEngine_RuntimeContext
